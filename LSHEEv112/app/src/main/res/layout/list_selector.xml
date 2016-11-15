@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <shape android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <solid android:color="#faebeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </shape>
+    </item>
+
+    <item android:state_checked="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"><shape android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <solid android:color="#cac0c0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </shape></item>
+    <item android:state_selected="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"><shape android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <solid android:color="#cac0c0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </shape></item>
+    <item android:state_pressed="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"><shape android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <solid android:color="#cac0c0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </shape></item>
+</selector>

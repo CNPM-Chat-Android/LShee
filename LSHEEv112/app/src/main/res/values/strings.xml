@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LSHEE</string>
+    <string name="lshee">LSHEE</string>
+    <string name="username">Username</string>
+    <string name="log_in">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="tvlshee">LSHEE</string>
+    <string name="facebook_app_id">2150476898509763</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="remember_me">Remember me?</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email">Email</string>
+    <string name="so_dien_thoai">Phone number</string>
+    <string name="you_already_have_an_account">You already have an account?</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="author_name">By thotnot</string>
+    <string name="author_url">www.thotnot.thonnot</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="btn_join">JOIN</string>
+    <string name="btn_send">Send</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send">Send</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/background"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimary"
+    tools:context="example.thuhang.lsheev112.LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvlshee"
+        android:id="@+id/textView3"
+        android:textSize="30sp"
+        android:textColor="@color/colorLshee"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/linearLayout"
+        android:paddingTop="180dp"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1"
+        android:layout_alignParentTop="true">
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            float:fletPaddingBottom="3dp"
+            float:fletTextAppearance="@style/floatlabelededittext">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextUSERNAME"
+            android:height="60dp"
+            android:singleLine="true"
+            android:maxLength="40"
+            android:layout_marginTop="0dp"
+            android:hint="@string/username" />
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <com.wrapp.floatlabelededittext.FloatLabeledEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            float:fletPaddingBottom="3dp"
+            float:fletTextAppearance="@style/floatlabelededittext">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPASSWORD"
+            android:height="70dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:maxLength="20"/>
+        </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_me"
+            android:textColor="@color/colorLshee"
+            android:id="@+id/checkBox" />
+
+        <Button android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:text="@string/log_in"
+            android:id="@+id/buttonLOGIN"
+            android:textColor="#178d97"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_your_password"
+            android:id="@+id/textViewFORGOTPASSWORD"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:textColorLink="#1515d7"/>
+       <!-- <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_centerInParent="true"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:id="@+id/ButtonSIGNUP"
+            android:text="@string/create_an_account"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

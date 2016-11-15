@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:background="@layout/list_selector"
+    android:padding="10dp">
+
+<ImageView
+android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/avarta" />
+
+<LinearLayout
+android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+     >
+<TextView
+android:id="@+id/txtName"
+    android:layout_width="fill_parent"
+    android:layout_height="25dp"
+    android:gravity="center_vertical"
+    android:text="xxxxxxxxxxxxxx"
+    android:textColor="#000"
+    android:textStyle="bold" />
+
+    <TextView
+android:id="@+id/txtPhone"
+    android:layout_width="fill_parent"
+    android:layout_height="25dp"
+    android:gravity="center_vertical"
+    android:text="1234566" />
+
+    </LinearLayout>
+
+</LinearLayout>
